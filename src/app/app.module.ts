@@ -10,11 +10,13 @@ import {MatButtonModule} from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { ListOfProductsComponent } from './list-of-products/list-of-products.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderToolbarComponent
+    HeaderToolbarComponent,
+    ListOfProductsComponent
   ],
   imports: [
     BrowserModule,
