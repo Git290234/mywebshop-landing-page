@@ -1,0 +1,49 @@
+
+
+ //Konstanten
+ //Bestimme die Höhe der Toolbar und gib hier den Wert an!
+$header-toolbar-height: 64px;
+
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+ .flex-container-logout{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .icon-logout{
+      width: 120px;;
+  }
+
+
+  .container {
+    width: 100%;
+  
+    img {
+      width: 100%;
+      height: calc(#{width} * 1.778);
+    }
+  }
+
+
+  .example-container {
+    width: 100%;
+    //Berechne die Höhe des Containers unter der Header-Toolbar
+    height: calc(100% - #{$header-toolbar-height});
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .example-sidenav {
+    padding: 0px;
+  }
+
